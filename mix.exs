@@ -39,7 +39,7 @@ defmodule EventStore.Mixfile do
 
   defp deps do
     [
-      {:elixir_uuid, "~> 1.2"},
+      {:uuid_utils, "~> 1.6"},
       {:fsm, "~> 0.3"},
       {:gen_stage, "~> 1.0"},
       {:postgrex, "~> 0.15"},
